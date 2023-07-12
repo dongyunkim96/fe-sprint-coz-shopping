@@ -34,7 +34,7 @@ return (
             </Link>
         </div>
         <div className="header-column">
-            <img onClick={clickMenuIcon} src={menuIcon} />
+            <img className="header-menuIcon" onClick={clickMenuIcon} src={menuIcon} />
             {isOpen && (
                 <section className="dropDown" ref={outsideRef}>
                     <div className="dropDown-list">ooo님, 안녕하세요!</div>
