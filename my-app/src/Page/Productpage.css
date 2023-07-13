@@ -1,0 +1,11 @@
+.category-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.category-product-list {
+    width: 1128px;
+    transform: translate(15%, 0);
+}

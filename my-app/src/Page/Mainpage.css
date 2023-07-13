@@ -1,0 +1,33 @@
+.content {
+    width: 1128px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.75rem 0 0.938rem 0;
+}
+
+.product-list {
+    height: 320px;
+}
+
+.product-title,
+.bookmark-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.nodataImage {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    color: #5f4be0;
+}
