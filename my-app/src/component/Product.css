@@ -1,0 +1,63 @@
+.productList-Container {
+    display: flex;
+    width: 1128px;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .productList-Container > li {
+    list-style: none;
+    position: relative;
+    width: 264px;
+  }
+  .product-image > img {
+    width: 264px;
+    height: 210px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .productList-Container > li > div {
+    display: flex;
+    margin-top: 6px;
+    font-size: 16px;
+  }
+  .product-info,
+  .brand-info {
+    justify-content: space-between;
+  }
+  .product-info > div,
+  .brand-info > div:first-child,
+  .exhibition-title,
+  .category-title {
+    font-weight: 800;
+  }
+  .product-info > div:last-child {
+    color: #452cdd;
+  }
+  .brand-info > div:last-child {
+    font-weight: 700;
+  }
+  .brand-follower {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .product-price,
+  .brand-follwer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+  }
+  
+  .starIcon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 58px;
+    right: 8px;
+    color: #dfdfdf;
+    cursor: pointer;
+  }
+  .Toggle {
+    color: #ffd361;
+  }

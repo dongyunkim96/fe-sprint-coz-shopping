@@ -1,8 +1,9 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Page/Header";
-import Footer from "./Page/Footer";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import MainPage from "./Page/Mainpage";
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-
+        <Route path="/" element={<MainPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
